@@ -98,5 +98,5 @@ class HumanoidsTitles
     {9781594653186, "WEAPONS OF THE METABARON"}
   };
 public:
-  static const string& getTitle(const ISBN i){ return titleMap.at(i); }
+  static const string& getTitle(const ISBN& i){ return titleMap.at(i); }
 };

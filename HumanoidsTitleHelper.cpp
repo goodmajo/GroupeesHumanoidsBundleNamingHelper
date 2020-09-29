@@ -28,7 +28,7 @@ int main()
 
   unsigned int count = 0;
 
-  for(const auto & file : std::filesystem::directory_iterator(path))
+  for(const auto& file : std::filesystem::directory_iterator(path))
   {
     string f = file.path().filename().string();
     const FileExtention e = file.path().extension().string();
